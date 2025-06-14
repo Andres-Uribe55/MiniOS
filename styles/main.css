@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --principal-color: #ffd55e;
+    --secundary-color: #115695;
+    --third-color: white;
+    --fourth-color: black;
+}
+.footer__icon:hover{
+    content: url("https://i.pinimg.com/originals/b1/c9/c2/b1c9c23974d7ecd60d3ec15ac91b115e.gif");
+    padding: 2px;
+    height: 50px;
+    width: 66px;
+}
+html, body{
+    overflow: hidden;
+}
+
+main{
+    height: 100vh;
+    background-image: url("/assets/img/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: var(--secundary-color);
+    margin-bottom: 0;
+}
+
+.footer__img, .footer__icon{
+    padding: 2px;
+    height: 50px;
+    padding-inline: 10px;
+}
+.footer__img2{
+    height: 20px;
+    padding-inline: 10px;
+}
+.footer__img:hover{
+    background-color: rgba(201, 201, 201, 0.151);
+    border-radius: 15%;
+}
+.footer__img2:hover{
+    background-color: rgba(201, 201, 201, 0.151);
+    border-radius: 15%;
+}
+.apps{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: fixed;
+}
+.app:hover{
+    background-color: rgba(163, 163, 163, 0.151);
+    padding: 1px;
+    border-radius: 25px;
+}
+.app{
+    justify-content: center;
+    
+}
+.app img{
+    width: 80px;
+}
+.app_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.content:has(#item1:checked){
+    .restaurante{
+        display: block;
+    }
+}
+.content:has(#item2:checked){
+    .alkosto{
+        display: block;
+    }
+}
+.content:has(#item3:checked){
+    .yoga{
+        display: block;
+    }
+}
+.content:has(#item4:checked){
+    .feria{
+        display: block;
+    }
+}
+
+.item{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+}
+.restaurante, .yoga, .alkosto, .feria{
+    display: none;
+}
+.fecha{
+    color: white;
+}
+.fecha:hover{
+    background-color: rgba(163, 163, 163, 0.151);
+}
+
+.notificaciones{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 75%;
+    padding-top: 17px;
+}

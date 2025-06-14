@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #e0f5fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 1rem;
+}
+@font-face {
+    font-family: 'Blank'  ;
+    src:url(./fonts/Blank\ River.eot);
+    src:url(./fonts/Blank\ River.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/Blank\ River.ttf) format('truetype'),
+        url(./fonts/Blank\ River.woff) format('woff'),
+        url(./fonts/Blank\ River.svg#svgBlank) format('svg');
+
+}
+
+.navbar{
+    background-color: #333;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 1em;
+    left: 0;
+    z-index: 1;
+}
+.nav__item{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.nav__item:hover{
+    color: #e74c3c;
+}
+
+.nav__item:visited{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+main h1, h2 {
+    font-size: 2.5rem;
+    color: #c0392b;
+    margin-bottom: 0.5rem;
+    font-family: Blank ;
+}
+.programación-titulo{
+    font-size: 5rem;
+}
+
+.programacion-festival{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cronograma-container{
+    background-color: #ebe5e5;
+    font-family: 'Montserrat','segoe UI',sans-serif;
+    max-width: max-content;
+    padding: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.tabla-cronograma {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 1em;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.tabla-cronograma thead th {
+    background: linear-gradient(135deg, #e63946, #f4a261);
+    color: white;
+    padding: 18px 20px;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.tabla-cronograma th:first-child {
+    width: 15%;
+}
+
+.tabla-cronograma th:nth-child(2) {
+    width: 55%;
+}
+
+.tabla-cronograma th:nth-child(3) {
+    width: 30%;
+}
+
+.tabla-cronograma td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.tabla-cronograma tbody tr:last-child td {
+    border-bottom: none;
+}
+.footer{
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .programación-titulo{
+        font-size: 2.5rem;
+    }
+    .tabla-cronograma{
+        font-size: 12px;
+    }
+}
