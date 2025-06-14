@@ -20,7 +20,7 @@ html, body{
 
 main{
     height: 100vh;
-    background-image: url("/assets/img/wallpaper.jpg");
+    background-image: url("https://raw.githubusercontent.com/Andres-Uribe55/MiniOS/refs/heads/main/assets/img/wallpaper.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
