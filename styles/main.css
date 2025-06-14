@@ -20,7 +20,7 @@ html, body{
 
 main{
     height: 100vh;
-    background-image: url("http://i.pinimg.com/550x/06/41/42/064142edc77c6ebaa0c8eb3a1905f81a.jpg");
+    background-image: url("./assets/img/wallpaper.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
