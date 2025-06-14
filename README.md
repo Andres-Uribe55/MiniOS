@@ -53,3 +53,7 @@ El sistema operativo está construido principalmente con **HTML y CSS**, asegura
 - **Jhon Rojas**  
 - **Angelica Cuervo**  
 - **Omar Uribe**
+
+## links:
+- **Azure:** https://dev.azure.com/riwi-cohorte-4/Van%20Rossum/_backlogs/backlog/Van%20Rossum%20Team/Features?workitem=1913
+- **Despliegue:** https://andres-uribe55.github.io/MiniOS/
